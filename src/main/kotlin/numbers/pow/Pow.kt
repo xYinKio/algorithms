@@ -3,7 +3,7 @@ package numbers.pow
 import kotlin.math.pow
 import kotlin.system.measureTimeMillis
 
-const val DELAY = 1L
+
 
 fun main(){
     val pow = -1023

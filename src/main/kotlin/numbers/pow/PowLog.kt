@@ -14,7 +14,6 @@ fun powLog(n: Double, pow: Int) : Double {
     while (currentPow <= absPow){
         buff *= buff
         currentPow *= 2
-        Thread.sleep(DELAY)
     }
 
     val res = buff * powLog(n, absPow - currentPow / 2)

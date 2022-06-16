@@ -6,7 +6,6 @@ fun powLinear(n: Double, pow: Int) : Double {
     val absPow = abs(pow)
     var res = 1.0
     repeat(absPow){
-        Thread.sleep(DELAY)
         res *= n
     }
     return if (pow < 0) 1 / res else res
